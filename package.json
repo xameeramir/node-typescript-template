@@ -1,12 +1,29 @@
 {
-  "name": "typescript-boilerplate",
-  "version": "1.0.0",
-  "description": "Extremely basic template of a Typescript project",
-  "main": "dist/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsc && node dist/index.js"
-  },
-  "author": "Nordible <info@nordible.com> (https://nordible.com)",
-  "license": "MIT"
-}
+    "name": "typescript-boilerplate",
+    "version": "1.0.0",
+    "description": "Extremely basic template of a Typescript project",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "prepublish": "tsc",
+      "dev": "tsc && node dist/index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nordible/typescript-boilerplate.git"
+    },
+    "keywords": [
+      "typescript",
+      "template"
+    ],
+    "author": "Nordible <info@nordible.com> (https://nordible.com)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/nordible/typescript-boilerplate/issues"
+    },
+    "homepage": "https://nordible.com/typescript-boilerplate/",
+    "files": [
+      "dist/*"
+    ]
+  }
