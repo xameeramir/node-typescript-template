@@ -6,8 +6,9 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "tsc",
-    "dev": "tsc && node dist/index.js"
+    "prepublish": "tsc && git push",
+    "dev": "tsc && node dist/index.js",
+    "lint": "TODO"
   },
   "repository": {
     "type": "git",
