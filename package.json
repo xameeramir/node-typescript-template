@@ -1,5 +1,5 @@
 {
-  "name": "typescript-boilerplate",
+  "name": "node-typescript-template",
   "version": "1.0.0",
   "description": "Extremely basic template of a Typescript project (supports npm packaging)",
   "main": "dist/index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nordible/typescript-boilerplate.git"
+    "url": "git+https://github.com/nordible/node-typescript-template.git"
   },
   "keywords": [
     "typescript",
@@ -21,9 +21,9 @@
   "author": "Nordible <info@nordible.com> (https://nordible.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nordible/typescript-boilerplate/issues"
+    "url": "https://github.com/nordible/node-typescript-template/issues"
   },
-  "homepage": "https://nordible.com/typescript-boilerplate/",
+  "homepage": "https://nordible.com/node-typescript-template/",
   "files": [
     "dist/*"
   ],
