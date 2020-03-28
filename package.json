@@ -6,7 +6,6 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "tsc && git push",
     "dev": "tsc && node dist/index.js",
     "lint": "TODO"
   },
@@ -28,6 +27,7 @@
     "dist/*"
   ],
   "dependencies": {
-    "@types/node": "^12.12.12"
+    "@types/node": "^12.12.12",
+    "typescript": "^3.8.3"
   }
 }
