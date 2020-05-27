@@ -1,5 +1,11 @@
 Extremely basic skeleton code of a Node.js Typescript project with Lint support
 
+## Publishing to npm repository
+
+Go to https://www.npmjs.com/ and check if there is an existing npm package with the same name as in the `package.json` file's `name` attribute.
+
+If confirming that your package name is available, run `npm publish` to publish the package to npm repository.
+
 ## Contributions welcome!
 
 [Open a new PR](https://github.com/nordible/node-typescript-template/pulls) here on GitHub.
