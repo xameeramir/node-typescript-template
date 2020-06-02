@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "tsc && git push",
-    "dev": "tsc && node dist/index.js",
+    "dev": "ts-node-dev --respawn --transpileOnly ./src/index.ts",
+    "start": "tsc && node dist/index.js",
     "lint": "TODO"
   },
   "repository": {
@@ -30,5 +31,8 @@
   "dependencies": {
     "@types/node": "^12.12.12",
     "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.44"
   }
 }
